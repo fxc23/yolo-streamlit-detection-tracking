@@ -55,6 +55,7 @@ VIDEO_SOURCES = [SOURCE_STORED, SOURCE_WEBCAM, SOURCE_RTSP, SOURCE_YOUTUBE]
 # Ultralytics auto-downloads any model not already in weights/.
 
 DETECTION_MODELS = {
+    "Fire/Smoke YOLOv8n (D-Fire)": "fire-smoke-yolov8n.pt",
     "YOLO26-nano (fastest)": "yolo26n.pt",
     "YOLO26-small": "yolo26s.pt",
     "YOLO26-medium": "yolo26m.pt",
